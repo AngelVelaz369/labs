@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - EcoTech Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar-wireframe">
+      <div class="nav-item">
+        <a href="index.html">Inicio</a>
+      </div>
+      <div class="nav-item">
+        <a href="about.html">Quiénes somos</a>
+      </div>
+      <div class="nav-item">
+        <a href="contacto.html" class="active">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content-container">
+    <section class="hero-section">
+      <h1>Ponte en Contacto con Nosotros</h1>
+      <p class="subtitle">¿Tienes alguna duda o propuesta? Escríbenos y con gusto te responderemos.</p>
+    </section>
+
+    <article class="content-block">
+      <div class="text-content">
+        <h2>Canales Directos</h2>
+        <p>Puedes comunicarte directamente con nuestro equipo de desarrollo a través de los siguientes canales ficticios:</p>
+        <ul>
+          <li><strong>Correo Electrónico:</strong> contacto@ecotech-fake.com</li>
+          <li><strong>Teléfono de Atención:</strong> +52 (55) 5555-0192</li>
+          <li><strong>Horario:</strong> Lunes a Viernes de 9:00 a 18:00 hrs</li>
+          <li><strong>Ubicación:</strong> Estado de México, México</li>
+        </ul>
+      </div>
+
+      <div class="text-content" style="background-color: #f8f9fa; padding: 20px; border-radius: 6px;">
+        <h2>Envíanos un mensaje</h2>
+        <form onsubmit="event.preventDefault(); alert('Mensaje enviado (simulación).');">
+          <div style="margin-bottom: 10px;">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required style="width: 100%; padding: 8px; margin-top: 4px;">
+          </div>
+          <div style="margin-bottom: 10px;">
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required style="width: 100%; padding: 8px; margin-top: 4px;">
+          </div>
+          <div style="margin-bottom: 10px;">
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required style="width: 100%; padding: 8px; margin-top: 4px;"></textarea>
+          </div>
+          <button type="submit" style="background-color: #1b4332; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">Enviar Mensaje</button>
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer-wireframe">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>EcoTech Blog</h3>
+        <p>Proyecto de Simulación SCRUM.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Autores del Sitio</h4>
+        <ul>
+          <li>Luis Ángel Calvillo (Desarrollador Lead) - <a href="mailto:luis.angell@ecotech-fake.com">luis.angell@ecotech-fake.com</a></li>
+          <li>Equipo de Desarrollo TIFC - <a href="mailto:dev-team@ecotech-fake.com">dev-team@ecotech-fake.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Información de Contacto</h4>
+        <p>Teléfono falso: +52 (55) 5555-0192</p>
+        <p>Estado de México, México</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 EcoTech Blog. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
